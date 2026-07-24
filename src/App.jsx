@@ -6,6 +6,8 @@ import Creations from './pages/Creations'
 import Formations from './pages/Formations'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
+import FloatingWhatsApp from './components/FloatingWhatsApp'
+import BackToTop from './components/BackToTop'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <FloatingWhatsApp />
+      <BackToTop />
     </div>
   )
 }
