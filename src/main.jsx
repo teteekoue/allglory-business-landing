@@ -12,4 +12,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Toaster position="top-center" richColors closeButton />
     </BrowserRouter>
   </React.StrictMode>,
-)
+)// Force Vercel rebuild - Fri Jul 24 20:16:56 UTC 2026
